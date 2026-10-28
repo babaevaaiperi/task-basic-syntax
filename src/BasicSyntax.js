@@ -7,7 +7,7 @@ export function romanToInteger(str) {
     const next = values[str[i + 1]];
 
     if (next > current) {
-      result -= current;
+      result -= current; 
     } else {
       result += current;
     }
